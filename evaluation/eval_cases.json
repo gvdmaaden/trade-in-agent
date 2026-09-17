@@ -1,0 +1,264 @@
+{
+  "evaluation_set": "TradeInAgent_v1",
+  "created": "2026-09-17",
+  "description": "15 curated test emails covering all four scenario paths. Expected values reference the mock data in /data.",
+  "cases": [
+    {
+      "email_id": "EMAIL-001",
+      "expected_path": "PATH_1_COMPLETE_IN_STOCK",
+      "expected": {
+        "is_sufficient_for_valuation": true,
+        "stock_status": "available",
+        "valuation_lower_bound_eur": 8500,
+        "valuation_upper_bound_eur": 10500,
+        "proposed_slots_count": 3
+      },
+      "criteria": [
+        "groundedness",
+        "task_adherence",
+        "coherence",
+        "fluency",
+        "tool_usage"
+      ]
+    },
+    {
+      "email_id": "EMAIL-002",
+      "expected_path": "PATH_1_COMPLETE_IN_STOCK",
+      "expected": {
+        "is_sufficient_for_valuation": true,
+        "stock_status": "available",
+        "valuation_lower_bound_eur": 11000,
+        "valuation_upper_bound_eur": 13500,
+        "proposed_slots_count": 3
+      },
+      "criteria": [
+        "groundedness",
+        "task_adherence",
+        "coherence",
+        "fluency",
+        "tool_usage"
+      ]
+    },
+    {
+      "email_id": "EMAIL-003",
+      "expected_path": "PATH_1_COMPLETE_IN_STOCK",
+      "expected": {
+        "is_sufficient_for_valuation": true,
+        "stock_status": "available",
+        "valuation_lower_bound_eur": 9500,
+        "valuation_upper_bound_eur": 12000,
+        "proposed_slots_count": 3
+      },
+      "criteria": [
+        "groundedness",
+        "task_adherence",
+        "coherence",
+        "fluency",
+        "tool_usage"
+      ]
+    },
+    {
+      "email_id": "EMAIL-004",
+      "expected_path": "PATH_1_COMPLETE_IN_STOCK",
+      "expected": {
+        "is_sufficient_for_valuation": true,
+        "stock_status": "available",
+        "valuation_lower_bound_eur": 14000,
+        "valuation_upper_bound_eur": 17000,
+        "proposed_slots_count": 3
+      },
+      "criteria": [
+        "groundedness",
+        "task_adherence",
+        "coherence",
+        "fluency",
+        "tool_usage"
+      ]
+    },
+    {
+      "email_id": "EMAIL-005",
+      "expected_path": "PATH_2_COMPLETE_NOT_IN_STOCK",
+      "expected": {
+        "is_sufficient_for_valuation": true,
+        "stock_status": "not_found",
+        "alternatives_count": 3,
+        "valuation_lower_bound_eur": 9500,
+        "valuation_upper_bound_eur": 12000
+      },
+      "criteria": [
+        "groundedness",
+        "task_adherence",
+        "coherence",
+        "fluency",
+        "tool_usage"
+      ]
+    },
+    {
+      "email_id": "EMAIL-006",
+      "expected_path": "PATH_2_COMPLETE_NOT_IN_STOCK",
+      "expected": {
+        "is_sufficient_for_valuation": true,
+        "stock_status": "not_found",
+        "alternatives_count": 3,
+        "valuation_lower_bound_eur": 15000,
+        "valuation_upper_bound_eur": 18000
+      },
+      "criteria": [
+        "groundedness",
+        "task_adherence",
+        "coherence",
+        "fluency",
+        "tool_usage"
+      ]
+    },
+    {
+      "email_id": "EMAIL-007",
+      "expected_path": "PATH_2_COMPLETE_NOT_IN_STOCK",
+      "expected": {
+        "is_sufficient_for_valuation": true,
+        "stock_status": "sold",
+        "alternatives_count": 3,
+        "valuation_lower_bound_eur": 10500,
+        "valuation_upper_bound_eur": 13000
+      },
+      "criteria": [
+        "groundedness",
+        "task_adherence",
+        "coherence",
+        "fluency",
+        "tool_usage"
+      ]
+    },
+    {
+      "email_id": "EMAIL-008",
+      "expected_path": "PATH_3_INCOMPLETE",
+      "expected": {
+        "is_sufficient_for_valuation": false,
+        "missing_fields_include": [
+          "mileage_km",
+          "year_of_manufacture"
+        ],
+        "valuation_skipped": true
+      },
+      "criteria": [
+        "groundedness",
+        "task_adherence",
+        "coherence",
+        "fluency"
+      ]
+    },
+    {
+      "email_id": "EMAIL-009",
+      "expected_path": "PATH_3_INCOMPLETE",
+      "expected": {
+        "is_sufficient_for_valuation": false,
+        "missing_fields_include": [
+          "year_of_manufacture",
+          "license_plate"
+        ],
+        "valuation_skipped": true
+      },
+      "criteria": [
+        "groundedness",
+        "task_adherence",
+        "coherence",
+        "fluency"
+      ]
+    },
+    {
+      "email_id": "EMAIL-010",
+      "expected_path": "PATH_3_INCOMPLETE",
+      "expected": {
+        "is_sufficient_for_valuation": false,
+        "missing_fields_include": [
+          "mileage_km"
+        ],
+        "valuation_skipped": true
+      },
+      "criteria": [
+        "groundedness",
+        "task_adherence",
+        "coherence",
+        "fluency"
+      ]
+    },
+    {
+      "email_id": "EMAIL-011",
+      "expected_path": "PATH_3_INCOMPLETE",
+      "expected": {
+        "is_sufficient_for_valuation": false,
+        "valuation_skipped": true
+      },
+      "criteria": [
+        "groundedness",
+        "task_adherence",
+        "coherence",
+        "fluency"
+      ]
+    },
+    {
+      "email_id": "EMAIL-012",
+      "expected_path": "PATH_4_EDGE_RDW_FALLBACK",
+      "expected": {
+        "is_sufficient_for_valuation": true,
+        "rdw_status": "not_found",
+        "valuation_lower_bound_eur": 11000,
+        "valuation_upper_bound_eur": 13500
+      },
+      "criteria": [
+        "groundedness",
+        "task_adherence",
+        "coherence",
+        "fluency",
+        "tool_usage"
+      ]
+    },
+    {
+      "email_id": "EMAIL-013",
+      "expected_path": "PATH_4_EDGE_UNTAXATABLE",
+      "expected": {
+        "is_sufficient_for_valuation": true,
+        "valuation_status": "not_found",
+        "reply_mentions_onsite_valuation": true
+      },
+      "criteria": [
+        "groundedness",
+        "task_adherence",
+        "coherence",
+        "fluency"
+      ]
+    },
+    {
+      "email_id": "EMAIL-014",
+      "expected_path": "PATH_4_EDGE_UNTAXATABLE",
+      "expected": {
+        "is_sufficient_for_valuation": true,
+        "valuation_status": "not_found",
+        "reply_mentions_onsite_valuation": true
+      },
+      "criteria": [
+        "groundedness",
+        "task_adherence",
+        "coherence",
+        "fluency"
+      ]
+    },
+    {
+      "email_id": "EMAIL-015",
+      "expected_path": "PATH_3_INCOMPLETE",
+      "expected": {
+        "is_sufficient_for_valuation": false,
+        "missing_fields_include": [
+          "mileage_km"
+        ],
+        "valuation_skipped": true
+      },
+      "criteria": [
+        "groundedness",
+        "task_adherence",
+        "coherence",
+        "fluency"
+      ]
+    }
+  ]
+}

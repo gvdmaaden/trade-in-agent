@@ -1,0 +1,114 @@
+{
+  "source": "ANWB-style mock data — replace with licensed valuation feed in production",
+  "currency": "EUR",
+  "entries": [
+    {
+      "make": "Opel",
+      "model": "Astra",
+      "year_min": 2017,
+      "year_max": 2019,
+      "mileage_min_km": 100000,
+      "mileage_max_km": 150000,
+      "fuel_type": "petrol",
+      "transmission_type": "manual",
+      "lower_bound_eur": 8500,
+      "upper_bound_eur": 10500
+    },
+    {
+      "make": "Opel",
+      "model": "Astra",
+      "year_min": 2017,
+      "year_max": 2019,
+      "mileage_min_km": 75000,
+      "mileage_max_km": 100000,
+      "fuel_type": "petrol",
+      "transmission_type": "manual",
+      "lower_bound_eur": 9500,
+      "upper_bound_eur": 12000
+    },
+    {
+      "make": "Ford",
+      "model": "Focus",
+      "year_min": 2018,
+      "year_max": 2020,
+      "mileage_min_km": 75000,
+      "mileage_max_km": 125000,
+      "fuel_type": "petrol",
+      "transmission_type": "manual",
+      "lower_bound_eur": 11000,
+      "upper_bound_eur": 13500
+    },
+    {
+      "make": "Renault",
+      "model": "Clio",
+      "year_min": 2019,
+      "year_max": 2021,
+      "mileage_min_km": 40000,
+      "mileage_max_km": 80000,
+      "fuel_type": "petrol",
+      "transmission_type": "manual",
+      "lower_bound_eur": 9500,
+      "upper_bound_eur": 12000
+    },
+    {
+      "make": "BMW",
+      "model": "3 Series",
+      "year_min": 2015,
+      "year_max": 2018,
+      "mileage_min_km": 125000,
+      "mileage_max_km": 175000,
+      "fuel_type": "petrol",
+      "transmission_type": "automatic",
+      "lower_bound_eur": 14000,
+      "upper_bound_eur": 17000
+    },
+    {
+      "make": "Volkswagen",
+      "model": "Golf",
+      "year_min": 2019,
+      "year_max": 2021,
+      "mileage_min_km": 50000,
+      "mileage_max_km": 100000,
+      "fuel_type": "petrol",
+      "transmission_type": "manual",
+      "lower_bound_eur": 15000,
+      "upper_bound_eur": 18000
+    },
+    {
+      "make": "Hyundai",
+      "model": "i30",
+      "year_min": 2018,
+      "year_max": 2020,
+      "mileage_min_km": 90000,
+      "mileage_max_km": 140000,
+      "fuel_type": "petrol",
+      "transmission_type": "automatic",
+      "lower_bound_eur": 10500,
+      "upper_bound_eur": 13000
+    },
+    {
+      "make": "Skoda",
+      "model": "Octavia",
+      "year_min": 2016,
+      "year_max": 2019,
+      "mileage_min_km": 100000,
+      "mileage_max_km": 150000,
+      "fuel_type": "petrol",
+      "transmission_type": "manual",
+      "lower_bound_eur": 11000,
+      "upper_bound_eur": 13500
+    },
+    {
+      "make": "Opel",
+      "model": "Corsa",
+      "year_min": 2019,
+      "year_max": 2021,
+      "mileage_min_km": 40000,
+      "mileage_max_km": 90000,
+      "fuel_type": "petrol",
+      "transmission_type": "manual",
+      "lower_bound_eur": 9000,
+      "upper_bound_eur": 11500
+    }
+  ]
+}

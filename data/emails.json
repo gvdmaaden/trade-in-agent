@@ -1,0 +1,109 @@
+{
+  "emails": [
+    {
+      "email_id": "EMAIL-001",
+      "from": "j.dijkstra@example.com",
+      "from_name": "Jan Dijkstra",
+      "subject": "Trade-in question about the VW Golf",
+      "body": "Hi, I saw a Volkswagen Golf 1.5 TSI Comfortline on your website. I have interest and would like to trade in my Opel Astra from 2018, it has 125,000 km on the clock. The license plate is X-123-AB, petrol, manual gearbox. Looking forward to hearing what you can offer me. Best regards, Jan Dijkstra"
+    },
+    {
+      "email_id": "EMAIL-002",
+      "from": "s.peeters@example.com",
+      "from_name": "Sanne Peeters",
+      "subject": "Toyota Corolla + trade-in",
+      "body": "Hello, is the Toyota Corolla 1.8 Hybrid still available? I would like to trade in my Ford Focus from 2019 with 95,000 km, petrol, manual. License plate KL-567-CD. Kind regards, Sanne Peeters"
+    },
+    {
+      "email_id": "EMAIL-003",
+      "from": "m.bakker@example.com",
+      "from_name": "Mark Bakker",
+      "subject": "Peugeot 208 interest",
+      "body": "Hi there, I am interested in the Peugeot 208 1.2 PureTech you have listed. My own car is a Renault Clio from 2020, petrol, manual, with 60,000 km. Could you tell me what my car is worth as a trade-in? Regards, Mark Bakker"
+    },
+    {
+      "email_id": "EMAIL-004",
+      "from": "l.jansen@example.com",
+      "from_name": "Linda Jansen",
+      "subject": "Volvo V60 trade-in",
+      "body": "Dear sir/madam, I would like to buy the Volvo V60 B4 you have in stock. For trade-in I offer my BMW 3 Series from 2017, automatic, petrol, with about 140,000 km. The plate is GH-234-JK. Thank you, Linda Jansen"
+    },
+    {
+      "email_id": "EMAIL-005",
+      "from": "p.willems@example.com",
+      "from_name": "Peter Willems",
+      "subject": "Do you have a Golf GTI?",
+      "body": "Hi, I am looking for a Volkswagen Golf GTI. Do you have one? If so I would trade in my Opel Astra from 2019 with 90,000 km, petrol, manual, plate MN-789-EF. Greetings, Peter Willems"
+    },
+    {
+      "email_id": "EMAIL-006",
+      "from": "a.de.vries@example.com",
+      "from_name": "Anne de Vries",
+      "subject": "Tesla Model 3 question",
+      "body": "Hello, do you have a Tesla Model 3 in stock? I would like to move away from petrol. My trade-in is a Volkswagen Golf from 2020, petrol, manual, 70,000 km, license plate RS-345-GH. Best regards, Anne de Vries"
+    },
+    {
+      "email_id": "EMAIL-007",
+      "from": "r.smit@example.com",
+      "from_name": "Rob Smit",
+      "subject": "Audi A4 still available?",
+      "body": "Hi, I saw an Audi A4 40 TDI on your site. Is it still for sale? I want to trade in my Hyundai i30 from 2019, automatic, petrol, with 110,000 km. Plate TB-901-KL. Kind regards, Rob Smit"
+    },
+    {
+      "email_id": "EMAIL-008",
+      "from": "k.mulder@example.com",
+      "from_name": "Kim Mulder",
+      "subject": "Trade-in Kia Niro",
+      "body": "Hello, I am interested in the Kia Niro you have listed. I would like to trade in my Opel Corsa from 2019, petrol, manual. Can you tell me what it is worth? Regards, Kim Mulder"
+    },
+    {
+      "email_id": "EMAIL-009",
+      "from": "t.hoogland@example.com",
+      "from_name": "Tom Hoogland",
+      "subject": "Ford Puma question",
+      "body": "Hi, is the Ford Puma still available? For trade-in I have a Skoda Octavia, petrol, manual, with 130,000 km on it. Cheers, Tom Hoogland"
+    },
+    {
+      "email_id": "EMAIL-010",
+      "from": "e.visser@example.com",
+      "from_name": "Emma Visser",
+      "subject": "Trade-in Opel Corsa",
+      "body": "Hi, I saw the Opel Corsa 1.2 Elegance on your website and I love it. My current car has license plate FR-111-ZZ. What can you offer me for it? Best, Emma Visser"
+    },
+    {
+      "email_id": "EMAIL-011",
+      "from": "d.kuiper@example.com",
+      "from_name": "Dirk Kuiper",
+      "subject": "Skoda Octavia interest",
+      "body": "Hello, I am interested in the Skoda Octavia you have for sale. I would also like to trade in my current car. Could you let me know the possibilities? Kind regards, Dirk Kuiper"
+    },
+    {
+      "email_id": "EMAIL-012",
+      "from": "f.groot@example.com",
+      "from_name": "Femke Groot",
+      "subject": "Trade-in value?",
+      "body": "Hi, I would like to buy the Hyundai Kona. My trade-in is a Skoda Octavia from 2018, petrol, manual, with 110,000 km. The license plate is ZZ-999-ZZ. What is it worth? Regards, Femke Groot"
+    },
+    {
+      "email_id": "EMAIL-013",
+      "from": "h.boer@example.com",
+      "from_name": "Hans Boer",
+      "subject": "Classic trade-in",
+      "body": "Hello, I am interested in the Mercedes C-Class you have listed. I own a classic Volkswagen Beetle from 1985, petrol, manual, with 310,000 km, plate PV-456-XY. What would you give me for it? Best regards, Hans Boer"
+    },
+    {
+      "email_id": "EMAIL-014",
+      "from": "b.zwart@example.com",
+      "from_name": "Bram Zwart",
+      "subject": "Van trade-in",
+      "body": "Hi, I would like to buy the Renault Megane E-Tech. For trade-in I have my Mercedes-Benz Sprinter van from 2016, diesel, manual, with 240,000 km. License plate BK-222-WW. Greetings, Bram Zwart"
+    },
+    {
+      "email_id": "EMAIL-015",
+      "from": "n.elzinga@example.com",
+      "from_name": "Nienke Elzinga",
+      "subject": "Question about your stock",
+      "body": "Hello, do you still have the Toyota Corolla available? I would like to trade in my own car, a Polo with plate SK-778-OP. Kind regards, Nienke Elzinga"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "source": "Mock of RDW Open Data SODA API (opendata.rdw.nl) — production: live API call with same schema",
+  "vehicles": [
+    {
+      "license_plate": "X-123-AB",
+      "make": "OPEL",
+      "model": "ASTRA",
+      "year_of_manufacture": 2018,
+      "fuel_type": "petrol",
+      "transmission_type": "manual",
+      "apk_expiry_date": "2027-03-01",
+      "mileage_plausibility": "logical"
+    },
+    {
+      "license_plate": "KL-567-CD",
+      "make": "FORD",
+      "model": "FOCUS",
+      "year_of_manufacture": 2019,
+      "fuel_type": "petrol",
+      "transmission_type": "manual",
+      "apk_expiry_date": "2027-06-15",
+      "mileage_plausibility": "logical"
+    },
+    {
+      "license_plate": "GH-234-JK",
+      "make": "BMW",
+      "model": "3ER REIHE",
+      "year_of_manufacture": 2017,
+      "fuel_type": "petrol",
+      "transmission_type": "automatic",
+      "apk_expiry_date": "2026-12-05",
+      "mileage_plausibility": "logical"
+    },
+    {
+      "license_plate": "MN-789-EF",
+      "make": "OPEL",
+      "model": "ASTRA",
+      "year_of_manufacture": 2019,
+      "fuel_type": "petrol",
+      "transmission_type": "manual",
+      "apk_expiry_date": "2027-04-20",
+      "mileage_plausibility": "logical"
+    },
+    {
+      "license_plate": "RS-345-GH",
+      "make": "VOLKSWAGEN",
+      "model": "GOLF",
+      "year_of_manufacture": 2020,
+      "fuel_type": "petrol",
+      "transmission_type": "manual",
+      "apk_expiry_date": "2027-01-30",
+      "mileage_plausibility": "logical"
+    },
+    {
+      "license_plate": "TB-901-KL",
+      "make": "HYUNDAI",
+      "model": "I30",
+      "year_of_manufacture": 2019,
+      "fuel_type": "petrol",
+      "transmission_type": "automatic",
+      "apk_expiry_date": "2026-11-12",
+      "mileage_plausibility": "logical"
+    },
+    {
+      "license_plate": "PV-456-XY",
+      "make": "VOLKSWAGEN",
+      "model": "KEVER",
+      "year_of_manufacture": 1985,
+      "fuel_type": "petrol",
+      "transmission_type": "manual",
+      "apk_expiry_date": "2027-02-08",
+      "mileage_plausibility": "unknown"
+    },
+    {
+      "license_plate": "BK-222-WW",
+      "make": "MERCEDES-BENZ",
+      "model": "SPRINTER",
+      "year_of_manufacture": 2016,
+      "fuel_type": "diesel",
+      "transmission_type": "manual",
+      "apk_expiry_date": "2027-05-19",
+      "mileage_plausibility": "logical"
+    },
+    {
+      "license_plate": "FR-111-ZZ",
+      "make": "VOLKSWAGEN",
+      "model": "POLO",
+      "year_of_manufacture": 2019,
+      "fuel_type": "petrol",
+      "transmission_type": "manual",
+      "apk_expiry_date": "2027-08-02",
+      "mileage_plausibility": "logical"
+    },
+    {
+      "license_plate": "SK-778-OP",
+      "make": "VOLKSWAGEN",
+      "model": "POLO",
+      "year_of_manufacture": 2017,
+      "fuel_type": "petrol",
+      "transmission_type": "manual",
+      "apk_expiry_date": "2026-10-25",
+      "mileage_plausibility": "logical"
+    }
+  ]
+}

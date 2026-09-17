@@ -57,8 +57,11 @@ Incoming email -> Intake (parse + completeness gate)
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env   # fill in your Foundry project connection string
-python workflow.py     # processes all emails in data/emails.json
+cp .env.example .env        # fill in your Foundry project connection string
+cd src
+python agents.py            # smoke test: create agents and parse one email
+python workflow.py          # process all emails in data/emails.json
+python workflow.py EMAIL-001 EMAIL-005   # or a selection
 ```
 
 Replies are written to `results/replies.json`.
@@ -66,7 +69,8 @@ Replies are written to `results/replies.json`.
 ## Evaluation
 
 ```bash
-python evaluation/run_evaluation.py
+cd src
+python ../evaluation/run_evaluation.py
 ```
 
 15 curated test emails cover all four paths, including edge cases (RDW lookup failure, untaxatable vehicles, missing fields). Each case defines expected values (path, stock status, value bounds, slot count) and is scored on groundedness, task adherence, coherence, fluency and tool usage.
@@ -76,3 +80,28 @@ python evaluation/run_evaluation.py
 - [`docs/architecture.md`](docs/architecture.md) — agent diagram, data contracts, scenario paths
 - [`docs/observability.md`](docs/observability.md) — tracing and monitoring strategy
 - [`docs/production_readiness.md`](docs/production_readiness.md) — governance, GDPR, reliability, production migration plan
+
+## Repository Structure
+
+```text
+trade-in-agent/
+├── README.md
+├── requirements.txt
+├── .env.example
+├── src/
+│   ├── agents.py          # 5 agent definitions + function tools
+│   └── workflow.py        # orchestration: intake gate -> parallel fan-out -> reply
+├── data/
+│   ├── emails.json        # 15 mock incoming emails (doubles as evaluation input)
+│   ├── inventory.json     # dealership stock
+│   ├── valuation_guide.json  # ANWB-style value ranges
+│   ├── calendar.json      # mock agenda for slot calculation
+│   └── rdw_lookup.json    # mock RDW Open Data responses per license plate
+├── evaluation/
+│   ├── eval_cases.json    # expected outcomes per email
+│   └── run_evaluation.py  # compares agent output vs expected
+└── docs/
+    ├── architecture.md
+    ├── observability.md
+    └── production_readiness.md
+```
